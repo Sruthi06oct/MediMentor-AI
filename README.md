@@ -1,17 +1,27 @@
-# MediMentor-AI
-# 🩺 MediMentor AI
-Hackathon_24/
-├── main.py                 # 💻 Streamlit frontend app (UI & user logic)
-├── utils.py                # 🧠 Backend AI logic and helper functions
-├── requirements.txt        # 📦 Python dependencies
-├── README.md               # 📄 Project documentation (this file)
-├── assets/                 # 🖼️ Optional: Images, icons, or screenshots
-│   └── screenshot1.png     #     Sample app screenshot
-├── data/                   # 🗂️ Optional: PDF reports or user logs
-│   └── health_report.pdf   #     Example generated PDF report
-└── .streamlit/             # ⚙️ Streamlit config (optional)
-    └── config.toml         #     Custom page settings (title, favicon)
+🩺 Project Description: MediMentor AI
 
+MediMentor AI is a smart, AI-powered health assistant built using Python and Streamlit. It provides personalized medical guidance based on user symptoms, lifestyle inputs, and basic health data. The system suggests the right specialist, nearby hospitals, potential conditions, medicines (with dosage), tests, risk severity, diet and lifestyle changes, and even mental health checks — all summarized in a downloadable PDF health report.
+
+It also includes an AI-powered Q&A chatbot ("Ask AI Doctor") for users to ask follow-up questions, creating an interactive and helpful virtual consultation experience.
+
+🌟 Key Highlights:
+Symptom analysis & disease prediction
+
+Personalized specialist & test suggestions
+
+AI-based medicine dosage recommendations
+
+Mental health screener
+
+Emergency warning detector
+
+Skin diagnosis from image input
+
+PDF health summary generator
+
+AI doctor Q&A (chat-style)
+
+Simple, elegant UI built with Streamlit
 An AI-powered Health Advisor built with Streamlit to assist users with:
 - Disease prediction
 - Specialist suggestion
